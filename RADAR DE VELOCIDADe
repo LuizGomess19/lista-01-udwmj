@@ -1,0 +1,10 @@
+// Define a velocidade do carro
+let velocidade = 85;
+let limite = 80;
+
+// Verifica se passou do limite
+if (velocidade > limite) {
+    console.log("Multado! Você ultrapassou o limite de velocidade.");
+} else {
+    console.log("Velocidade permitida. Boa viagem!");
+}
